@@ -57,15 +57,15 @@ All place bet requests support deduplication.
 
 # API Reference
 
-**[PS3838 API Open API Specification](https://github.com/ps3838api/api-spec/tree/master/OpenAPI)** is hosted on GitHub.
+**[PS3838 API Open API Specification](https://github.com/Pinny888/api-spec/blob/main/OpenAPI)** is hosted on GitHub.
 
 The API reference documentation:
 
-**[Lines API](https://pinnacle888api.github.io/docs?api=lines)**
+**[Lines API](https://pinny888.github.io/docs?api=lines)**
 
-**[Bets API](https://pinnacle888api.github.io/docs?api=bets)**
+**[Bets API](https://pinny888.github.io/docs?api=bets)**
 
-**[Customer API](https://pinnacle888api.github.io/docs?api=customer)**
+**[Customer API](https://pinny888.github.io/docs?api=customer)**
 
 
 
