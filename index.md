@@ -1,4 +1,3 @@
-[<img _ngcontent-c2="" src="https://avatars1.githubusercontent.com/u/28770833?s=88&v=4" style="background-color: transparent;">](https://pinnacle888api.github.io)
 
 
 # API Reference
@@ -13,11 +12,11 @@
 
 #### The API reference documentation:
 
-**[Lines API](https://pinnacle888api.github.io/docs?api=lines)**
+**[Lines API](https://pinny888.github.io/docs?api=lines)**
 
-**[Bets API](https://pinnacle888api.github.io/docs?api=bets)**
+**[Bets API](https://pinny888.github.io/docs?api=bets)**
 
-**[Customer API](https://pinnacle888api.github.io/docs?api=customer)**
+**[Customer API](https://pinny888.github.io/docs?api=customer)**
 
 
 # Overview
@@ -77,7 +76,7 @@ All place bet requests support deduplication.
 You can follow [Pinnacle888 status page](https://status.pinnacle888.com/) and subscribe to get the notifications on API status.  
 
 
-**[Pinnacle888 API Open API Specification](https://github.com/Pinny888/api-spec/blob/main/OpenAPI)** is hosted on GitHub.
+**[Pinnacle888 API Open API Specification](https://github.com/pinny888/api-spec/blob/main/OpenAPI)** is hosted on GitHub.
 
 
 # Disclaimer
