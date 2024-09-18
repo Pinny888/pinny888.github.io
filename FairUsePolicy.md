@@ -1,4 +1,3 @@
-[<img _ngcontent-c2="" src="https://avatars1.githubusercontent.com/u/28770833?s=88&v=4" style="background-color: transparent;">](https://ps3838api.github.io)
 
 
 
@@ -13,15 +12,15 @@ We may at any time, and at our sole discretion, modify this Fair Use Policy, wit
 
 ## Fair usage
 
-The API is provided to players to facilitate wagering and may not be used for data gathering, scrapping or any other purpose. The API usage must be proportionate to wagering activities as determined on a case by case basis by PS3838.
+The API is provided to players to facilitate wagering and may not be used for data gathering, scrapping or any other purpose. The API usage must be proportionate to wagering activities as determined on a case by case basis by Pinnacle888.
 
-Unless explicitly agreed in writing by PS3838, the commercial usage of the API will lead to the permanent suspension of your access.
+Unless explicitly agreed in writing by Pinnacle888, the commercial usage of the API will lead to the permanent suspension of your access.
 
 You will not attempt or encourage others to:
 
 - To interfere with, disrupt, or disable any API features;
-- Use the API for commercial purposes without a written agreement with PS3838;
-- Sell, rent, lease, sublicense, redistribute, or syndicate the API to any third party without prior written approval from PS3838.
+- Use the API for commercial purposes without a written agreement with Pinnacle888;
+- Sell, rent, lease, sublicense, redistribute, or syndicate the API to any third party without prior written approval from Pinnacle888.
 
 ### Rules 
 
@@ -145,7 +144,7 @@ You will not attempt or encourage others to:
   </tr>
   <tr>
     <td>/line/parlay</td>
-    <td>/v2</td>
+    <td>/v3</td>
     <td>On demand</td>
   </tr>
   <tr>
@@ -159,11 +158,6 @@ You will not attempt or encourage others to:
     <td>On demand</td>
   </tr>
   <tr>
-    <td>/translations</td>
-    <td>/v3</td>
-    <td>On demand</td>
-  </tr>
-  <tr>
     <td>/client/balance</td>
     <td>/v1</td>
     <td>On demand</td>
@@ -172,4 +166,4 @@ You will not attempt or encourage others to:
 
 
 # Disclaimer
-PS3838 is not liable for use of the API for any purpose, the API is provided on an “as is” and “as available” basis, without warranties of any kind, either express or implied, including, without limitation, implied warranties of merchantability, fitness for a particular purpose or non-infringement.
+Pinnacle888 is not liable for use of the API for any purpose, the API is provided on an “as is” and “as available” basis, without warranties of any kind, either express or implied, including, without limitation, implied warranties of merchantability, fitness for a particular purpose or non-infringement.
