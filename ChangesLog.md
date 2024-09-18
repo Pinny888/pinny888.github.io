@@ -1,7 +1,7 @@
 [<img _ngcontent-c2="" src="" style="background-color: transparent;">](https://pinny888.github.io)
 
- 
- #  **API Changelog**
+
+# API Changelog
  
 ## September 12, 2022 - Lines API
 
