@@ -2,7 +2,7 @@
 
 # Overview
 
-PS3838 API is a RESTful service for betting all bet types on all sports. 
+Pinnacle888 API is a RESTful service for betting all bet types on all sports. 
 
 #### Authentication 
 
@@ -21,11 +21,11 @@ Authorization: Basic BASE64STRING
 ```
 
 
-Please note that in order to access PS3838 API, you must have a funded account.
+Please note that in order to access Pinnacle888 API, you must have a funded account.
 
 #### Data Formats 
 
-PS3838 API supports only JSON format.
+Pinnacle888 API supports only JSON format.
 HTTP header `Accept` must be set:
 ```
     Accept: application/json
@@ -38,7 +38,7 @@ POST HTTP Request must have JSON body content and `Content-Type` HTTP header mus
 
 #### Compression 
 
-PS3838 API supports HTTP compression. We strongly recommend using compression as it would give the best performance.
+Pinnacle888 API supports HTTP compression. We strongly recommend using compression as it would give the best performance.
 
 Please make sure to set the `User-Agent` HTTP header or compression might not work.
 
@@ -57,7 +57,7 @@ All place bet requests support deduplication.
 
 # API Reference
 
-**[PS3838 API Open API Specification](https://github.com/Pinny888/api-spec/blob/main/OpenAPI)** is hosted on GitHub.
+**[Pinnacle888 API Open API Specification](https://github.com/pinny888/api-spec/blob/main/OpenAPI)** is hosted on GitHub.
 
 The API reference documentation:
 
@@ -81,11 +81,11 @@ The API reference documentation:
 [Fair Use Policy](FairUsePolicy.md)
 
 # API Status
-You can follow [PS3838 status page](https://status.ps3838.com/) and subscribe to get the notifications on API status.  
+You can follow [Pinnacle888 status page](https://status.pinnacle888.com/) and subscribe to get the notifications on API status.  
 
 
 # Disclaimer
 
- PS3838 is not liable for use of the API for any purpose. The API is provided on an “as is” and “as available” basis, without warranties of any kind, either expressed or implied, including, without limitation, implied warranties of merchantability and fitness for a particular purpose or non-infringement.
+ Pinnacle888 is not liable for use of the API for any purpose. The API is provided on an “as is” and “as available” basis, without warranties of any kind, either expressed or implied, including, without limitation, implied warranties of merchantability and fitness for a particular purpose or non-infringement.
 
  
