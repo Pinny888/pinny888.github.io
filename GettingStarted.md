@@ -1,15 +1,15 @@
-[<img _ngcontent-c2="" src="https://avatars1.githubusercontent.com/u/28770833?s=88&v=4" style="background-color: transparent;">](https://ps3838api.github.io)
+
 
 # Getting Started
 ## Step 1 – Sign Up
 
 To get started you would need to create an account.
 
-Please note that in order to access PS3838 API the account must be funded.
+Please note that in order to access Pinnacle888 API the account must be funded.
 
 ### Step 2 - Get a List of Offered Sports and Leagues
 
-You would need to get the list of sports from Get Sports operation. If you are interested in particular leagues you can get all sport leagues by calling Get Leagues operation. **[Lines API](https://ps3838api.github.io/docs?api=lines)**
+You would need to get the list of sports from Get Sports operation. If you are interested in particular leagues you can get all sport leagues by calling Get Leagues operation. **[Lines API](https://pinny888.github.io/docs?api=lines)**
 
 
 ### Step 3 - Place Bet
@@ -24,22 +24,22 @@ For bets on live events that are in PENDING_ACCEPTANCE state, you can call Get B
 
 # How to Place a Straight Bet?
 
-### Step 1 – Call Get Fixtures operation **[Lines API](https://ps3838api.github.io/docs?api=lines)**
+### Step 1 – Call Get Fixtures operation **[Lines API](https://pinny888.github.io/docs?api=lines)**
 
 
 This will return the list of events that are currently offered. To get updates use delta requests (with since parameter).
 
-### Step 2 – Call Get Odds operation **[Lines API](https://ps3838api.github.io/docs?api=lines)**
+### Step 2 – Call Get Odds operation **[Lines API](https://pinny888.github.io/docs?api=lines)**
 
 
 This will return the list of odds that are currently offered. To get updates use delta requests (with since parameter).
 
-### Step 3 - Get Line (optional)  **[Lines API](https://ps3838api.github.io/docs?api=lines)**
+### Step 3 - Get Line (optional)  **[Lines API](https://pinny888.github.io/docs?api=lines)**
 
 
 Call Get Line operation if you need exact stake limits or if you are interested only in a specific line. Please note that the limits in the Get Feed response are just general limits. Limits in the Get Line response are the exact limits.
 
-### Step 4 - Place Bet **[Bets API](https://ps3838api.github.io/docs?api=bets)**
+### Step 4 - Place Bet **[Bets API](https://pinny888.github.io/docs?api=bets)**
 
 
 To place a bet you need to call Place Bet operation.
@@ -99,25 +99,25 @@ Please note that for live events, odds change quite frequently as well as the ev
 
 # How to Place a Parlay Bet?
 
-### Step 1 – Call Get Fixtures operation. **[Lines API](https://ps3838api.github.io/docs?api=lines)**
+### Step 1 – Call Get Fixtures operation. **[Lines API](https://pinny888.github.io/docs?api=lines)**
 
 This will return the list of events that are currently offered. To get updates use delta requests (with since parameter)
 
-### Step 2 – Call Get Odds operation. **[Lines API](https://ps3838api.github.io/docs?api=lines)**
+### Step 2 – Call Get Odds operation. **[Lines API](https://pinny888.github.io/docs?api=lines)**
 
 This will return the list of odds that are currently offered. To get updates use delta requests (with since parameter)
 
-### Step 3 – Call Get Parlay Lines operation. **[Lines API](https://ps3838api.github.io/docs?api=lines)**
+### Step 3 – Call Get Parlay Lines operation. **[Lines API](https://pinny888.github.io/docs?api=lines)**
 
 For each event and bet type you want to bet on, construct a Leg object for Get Parlay Lines call and submit your request using
 
-#### POST /line/parlay **[Lines API](https://ps3838api.github.io/docs?api=lines)**
+#### POST /line/parlay **[Lines API](https://pinny888.github.io/docs?api=lines)**
 
 If response contains Invalid Legs – remove them and resubmit the request.
 
 If response have status = ‘VALID’ – place parlay bet request can be created.
 
-### Step 4 – Call Place Parlay Bet. **[Bets API](https://ps3838api.github.io/docs?api=bets)**
+### Step 4 – Call Place Parlay Bet. **[Bets API](https://pinny888.github.io/docs?api=bets)**
 
 
 Construct a list of legs using lineId values from Get Parlay Lines response and specify roundRobbinOptions out of those retuned in Get Parlay Lines response.
