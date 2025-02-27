@@ -1,5 +1,7 @@
 [<img _ngcontent-c2="" src="" style="background-color: transparent;">](https://pinny888.github.io)
 
+[English](index.md)\|[Chinese](index_ZH.md)|[Russian](index_RU.md)
+
 # API Reference
 
 [Getting Started](GettingStarted.md)
@@ -24,7 +26,7 @@
 #### Authentication 
 
 
-The API uses HTTP Basic access authentication. Always use HTTPS to access the API..
+The API uses HTTP Basic access authentication. Always use HTTPS to access the API.
 
 You need to send HTTP Request header like this:
 ```
