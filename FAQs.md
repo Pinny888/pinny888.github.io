@@ -1,5 +1,7 @@
 [<img _ngcontent-c2="" src="" style="background-color: transparent;">](https://pinny888.github.io)
 
+[English](FAQs.md)\|[Chinese](FAQs_ZH.md)|[Russian](FAQs_RU.md)
+
 # FAQ
 ### How to find associated events?
 
