@@ -25,25 +25,25 @@
 
 ### 规则 
 
-1\. 在/fixtures、/fixtures/special、/odds和/odds/special端点中支持Delta调用和Snapshot调用。Delta调用返回自提供的 since 值以来的变化。对于Delta调用 since 参数不能设置为 0 或 1，必须始终将其设置为上一次调用响应的最后一个属性值。Snapshot调用返回当前状态，因为不能为Snapshot调用提供 since 参数。
+1\. 在`/fixtures`、`/fixtures/special`、`/odds`和`/odds/special`端点中支持Delta调用和Snapshot调用。Delta调用返回自提供的 `since` 值以来的变化。对于Delta调用 `since` 参数不能设置为 0 或 1，必须始终将其设置为上一次调用响应的最后一个属性值。Snapshot调用返回当前状态，因为不能为Snapshot调用提供 `since` 参数。
 
 2\. 始终首先发出Snapshot调用，然后继续进行Delta调用。这将缩短响应时间并减小响应负载。因此，客户端将更快地获得赔率/赛程更新。
 
-3\. 客户端不得在循环中为每个体育联赛或赛程调用 /odds 或 /fixture 端点。如果客户端仅对某些联赛感兴趣，则必须将leagueIds参数设置为所有联赛标识符。对于 eventIds 参数，如果客户端只对特定事件感兴趣，在这种情况下，必须在同一调用中提供所有事件标识符。
+3\. 客户端不得在循环中为每个体育联赛或赛程调用 `/odds` 或 `/fixture` 端点。如果客户端仅对某些联赛感兴趣，则必须将`leagueIds`参数设置为所有联赛标识符。对于 `eventIds` 参数，如果客户端只对特定事件感兴趣，在这种情况下，必须在同一调用中提供所有事件标识符。
 
-4\. 对于/sports调用，必须遵守以下限制：
+4\. 对于`/sports`调用，必须遵守以下限制：
 
-- 对/sports的请求必须限制为每60分钟一次。体育列表不会经常更改。活跃事件的数量是过时的功能，最终将停用。
+- 对`/sports`的请求必须限制为每60分钟一次。体育列表不会经常更改。活跃事件的数量是过时的功能，最终将停用。
 
 5\. 每项运动必须遵守以下限制：
 
-- 无论leagueIds、eventIds或islive参数如何，对/fixtures和/odds端点的快照调用必须限制为每60秒一次。
+- 无论leagueIds、eventIds或islive参数如何，对`/fixtures`和`/odds`端点的快照调用必须限制为每60秒一次。
 
-- 无论 leagueIds、eventIds 或 islive 参数如何，对 /fixtures 和 /odds 端点的 Delta 调用必须限制为每 5 秒一次。      
+- 无论 `leagueIds`、`eventIds` 或 `islive` 参数如何，对 `/fixtures` 和 `/odds` 端点的 Delta 调用必须限制为每 5 秒一次。      
 
-- 对/leagues的调用必须限制为每60分钟一次。
+- 对`/leagues`的调用必须限制为每60分钟一次。
 
-6\. 客户端不得在循环中调用/line端点。此端点的目的是在投注前检查价格。
+6\. 客户端不得在循环中调用`/line`端点。此端点的目的是在投注前检查价格。
 
 ### 每项运动必须遵守以下限制：
 
