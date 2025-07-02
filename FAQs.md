@@ -307,3 +307,8 @@ When `/odds` return this moneyline offering
 Max volume is 250.
 Home team max risk is 305. 
 Away team max risk is 250.
+
+###  What is the minimum bet amount allowed when using the API?
+
+The minimum bet amount per wager when using our API is 10 USD (or the equivalent in your account's currency). This requirement helps ensure consistency and fair usage across all automated betting activity. Please make sure your integration adheres to this limit, as bets below the minimum may be rejected or not processed.
+
