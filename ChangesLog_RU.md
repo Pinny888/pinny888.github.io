@@ -3,7 +3,15 @@
 [English ](ChangesLog.md)\|[ Chinese ](ChangesLog_ZH.md)\|[ Russian](ChangesLog_RU.md)
 
 # API Changelog
- 
+
+## November 2025 – Bets API
+
+##### 1. <span>Нововведение</span> – New version of bets APIs `/v4`. New APIs:
+  + `/v4/bets/place`
+  + `/v4/bets/special`
+  + `/v4/bets/parlay`
+  + `/v4/bets/teaser`
+
 ## Август 2025 – Линии API
 
 ##### 1. <span>УСТАРЕВАНИЕ</span> – Устаревание нескольких свойств в `v1/periods` endpoint. Свойства, которые будут удалены:
