@@ -4,9 +4,9 @@
 
 # API Changelog
 
-## November 2025 – Bets API
+## Ноябрь 2025 -- API для ставок
 
-##### 1. <span>Нововведение</span> – New version of bets APIs `/v4`. New APIs:
+##### 1. <span>Функция</span> -- Новая версия API для ставок `/v4`. Новый API:
   + `/v4/bets/place`
   + `/v4/bets/special`
   + `/v4/bets/parlay`

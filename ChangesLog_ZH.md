@@ -4,9 +4,9 @@
 
 # API Changelog
 
-## November 2025 – Bets API
+## 2025 年 11 月——投注 API
 
-##### 1. <span>功能</span> – New version of bets APIs `/v4`. New APIs:
+##### 1. <span>功能</span>——新版投注 API `/v4`。新 API：
   + `/v4/bets/place`
   + `/v4/bets/special`
   + `/v4/bets/parlay`
