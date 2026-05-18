@@ -4,6 +4,15 @@
 
 # API Changelog
 
+## May 2026 – Bets API
+
+##### 1. <span>DEPRECATION</span> – Deprecate several endpoints:
+Deprecated endpoints:
+  + `/v2/bets/place`
+  + `/v2/bets/special`
+  + `/v2/bets/parlay`
+  + `/v1/bets/teaser`
+
 ## 2025 年 11 月——投注 API
 
 ##### 1. <span>功能</span>——新版投注 API `/v4`。新 API：
