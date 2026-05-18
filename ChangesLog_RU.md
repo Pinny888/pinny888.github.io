@@ -4,10 +4,10 @@
 
 # API Changelog
 
-## May 2026 – Bets API
+## Май 2026 - API для ставок
 
-##### 1. <span>DEPRECATION</span> – Deprecate several endpoints:
-Deprecated endpoints:
+##### 1. <span>Прекращение поддержки</span> – Вывод из эксплуатации нескольких эндпоинтов:
+Вывод из эксплуатации нескольких эндпоинтов:
   + `/v2/bets/place`
   + `/v2/bets/special`
   + `/v2/bets/parlay`
