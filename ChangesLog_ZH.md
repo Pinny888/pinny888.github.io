@@ -1,13 +1,13 @@
-[<img _ngcontent-c2="" src="" style="background-color: transparent;">](https://pinny888.github.io)
+<img width="270" height="30" alt="image" src="https://github.com/user-attachments/assets/38d86620-e785-4abe-90cd-d7082be9892e" />[<img _ngcontent-c2="" src="" style="background-color: transparent;">](https://pinny888.github.io)
 
 [English ](ChangesLog.md)\|[ Chinese ](ChangesLog_ZH.md)\|[ Russian](ChangesLog_RU.md)
 
 # API Changelog
 
-## May 2026 – Bets API
+## 2026年5月 – 投注 API
 
-##### 1. <span>DEPRECATION</span> – Deprecate several endpoints:
-Deprecated endpoints:
+##### 1. <span>弃用通知</span> – 多个接口将停止使用:
+多个接口将停止使用:
   + `/v2/bets/place`
   + `/v2/bets/special`
   + `/v2/bets/parlay`
