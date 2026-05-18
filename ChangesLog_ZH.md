@@ -1,4 +1,4 @@
-<img width="270" height="30" alt="image" src="https://github.com/user-attachments/assets/38d86620-e785-4abe-90cd-d7082be9892e" />[<img _ngcontent-c2="" src="" style="background-color: transparent;">](https://pinny888.github.io)
+[<img _ngcontent-c2="" src="" style="background-color: transparent;">](https://pinny888.github.io)
 
 [English ](ChangesLog.md)\|[ Chinese ](ChangesLog_ZH.md)\|[ Russian](ChangesLog_RU.md)
 
