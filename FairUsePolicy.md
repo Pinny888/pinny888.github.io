@@ -3,13 +3,31 @@
 [English ](FairUsePolicy.md)\|[ Chinese ](FairUsePolicy_ZH.md)\|[ Russian](FairUsePolicy_RU.md)
 
 # Fair Use Policy
-This API is protected by copyright laws and is provided only to our players, partners and affiliates.
 
-The use of this resource is subject to our "Fair Use Policy" which is set out below.
+This API is protected by copyright laws and is provided only to our players, partners and affiliates for non-commercial use only. Failure to abide by this policy or the API access agreement will result in Pinnacle888 pursuing all remedies available at law or in equity in addition to other specific actions as outlined in this policy.
 
-Use of the API constitutes your agreement to this policy. You understand and agree that at our sole discretion, and without prior notice, we may block access to our site if we believe that your use of our site has violated or is inconsistent with this Fair Use Policy.
+The use of this resource is subject to our “Fair Use Policy” which is set out below.
+
+Use of the API constitutes your agreement to this policy. You understand and agree that at our sole discretion, and without prior notice, we may block access if we believe that your use of our site has violated or is inconsistent with this Fair Use Policy.
 
 We may at any time, and at our sole discretion, modify this Fair Use Policy, with or without prior notice. Any such modification will be effective immediately upon public posting. Your continued use of our APIs and this site following such modification constitutes your acceptance of the modified terms in this Fair Use Policy.
+
+## API Access Rules
+
+1. **Grant of Access**  
+   Access to the API shall be granted on a sport-specific basis. Each approved sport constitutes a separate and distinct access entitlement.
+
+2. **Maximum Sports Entitlement**  
+   No User shall be granted API access for more than three (3) sports concurrently. Any request to add a sport beyond this limit shall be subject to prior written approval from the Company.
+
+3. **Minimum Volume Requirement**  
+   As a condition of maintaining API access for each approved sport, the User shall generate a minimum trading volume of USD $50,000 (or the equivalent in another currency, as determined by Pinnacle888) per sport, per rolling thirty (30) day period ("Minimum Volume Threshold").
+
+4. **Measurement Period**  
+   Volume shall be calculated and assessed on a rolling thirty (30) day basis, commencing from the date on which API access for the relevant sport is first granted to the User ("Access Commencement Date") and renewing every thirty (30) days thereafter ("Measurement Period"). Each Measurement Period shall be assessed independently for the purposes of determining compliance with the Minimum Volume Threshold.
+
+5. **Non-Compliance and Removal of Access**  
+   Where a User fails to meet the Minimum Volume Threshold for any given sport in any given Measurement Period, Pinnacle888 reserves the right, at its sole discretion, to revoke or suspend API access for that sport. Such removal shall apply only to the sport for which the Minimum Volume Threshold was not met and shall not affect the User's access entitlements for any other sport. Removal of access may occur without prior notice and shall not give rise to any liability on the part of Pinnacle888.
 
 ## Fair usage
 
